@@ -9,7 +9,7 @@ import iconLinkedin from '../../assets/icon-linkedin.png';
 import iconWhatsapp from '../../assets/whatsapp-32.png';
 import iconEmail from '../../assets/icon-email.png';
 
-import { Head, Description, Headshot, GroupIcon, Button } from './style';
+import {Button, Description, GroupIcon, Head, Headshot} from './style';
 
 export default function Header(props) {
     return (

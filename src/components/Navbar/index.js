@@ -1,7 +1,7 @@
 import React from 'react';
 
-import { Link } from 'react-router-dom';
-import { Navegation, Navlist, Droplink } from './style';
+import {Link} from 'react-router-dom';
+import {Droplink, Navegation, Navlist} from './style';
 
 export default function Navbar(props) {
     return (

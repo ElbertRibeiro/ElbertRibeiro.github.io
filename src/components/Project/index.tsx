@@ -3,7 +3,6 @@ import Bounce from 'react-reveal/Bounce';
 import {Container, ImgProject} from './style';
 
 import project1 from '../../assets/dev.finance.png';
-import project6 from '../../assets/dev.finance.png';
 import project2 from '../../assets/challenge.jpg';
 import project3 from '../../assets/To-do.png';
 import project4 from '../../assets/spiderman.png';
@@ -24,7 +23,7 @@ export default function Project() {
                 <a href="https://elbertribeiro.com/chatbot/">
                     <ImgProject src={project5} alt="Chatbot" /></a>
                 <a href="./">
-                    <ImgProject src={project6} alt="" /></a>
+                    <ImgProject src={project1} alt="" /></a>
             </Bounce >
         </Container>
     );

@@ -12,9 +12,9 @@ export default function Project() {
     return (
         <Container className="container-image">
             <Bounce effect="fadeInUp">
-                <a href="http://elbertribeiro.github.io/MaratonaDiscover/">
+                <a href="https://elbertribeiro.github.io/dev.finance">
                     <ImgProject src={project1} alt="DevFinance" /></a>
-                <a href="https://elbertribeiro.github.io/BetProtocolChallenge/">
+                <a href="https://elbertribeiro.com/tutormatch/">
                     <ImgProject src={project2} alt="Challenge" /></a>
                 <a href="https://github.com/ElbertRibeiro/todo-list-electronJS">
                     <ImgProject src={project3} alt="ToDo List" /></a>

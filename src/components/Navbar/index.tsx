@@ -3,7 +3,7 @@ import React from 'react';
 import {Link} from 'react-router-dom';
 import {Droplink, Navegation, Navlist} from './style';
 
-export default function Navbar(props) {
+export function Navbar(props) {
     return (
         <Navegation className="nav-bar">
             <h2>Elbert Ribeiro</h2>

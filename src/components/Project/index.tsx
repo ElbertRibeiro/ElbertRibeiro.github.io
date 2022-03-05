@@ -2,13 +2,13 @@ import React from 'react';
 import Bounce from 'react-reveal/Bounce';
 import {Container, ImgProject} from './style';
 
-import project1 from '../../assets/dev.finance.png';
-import project2 from '../../assets/challenge.jpg';
-import project3 from '../../assets/To-do.png';
-import project4 from '../../assets/spiderman.png';
-import project5 from '../../assets/chatbot.png';
+import project1 from '../../assets/img/dev.finance.png';
+import project2 from '../../assets/img/challenge.jpg';
+import project3 from '../../assets/img/To-do.png';
+import project4 from '../../assets/img/spiderman.png';
+import project5 from '../../assets/img/chatbot.png';
 
-export default function Project() {
+export function Project() {
     return (
         <Container className="container-image">
             <Bounce effect="fadeInUp">

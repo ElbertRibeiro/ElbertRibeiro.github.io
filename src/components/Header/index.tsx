@@ -1,17 +1,17 @@
 import React from 'react';
 import Bounce from 'react-reveal/Bounce';
 
-import headshot from '../../assets/headshot.jpg';
-import iconGithub from '../../assets/icon-github.png';
-import iconInstagram from '../../assets/icon-instagram.png';
-import iconLinkedin from '../../assets/icon-linkedin.png';
+import headshot from '../../assets/img/headshot.jpg';
+import iconGithub from '../../assets/img/icon-github.png';
+import iconInstagram from '../../assets/img/icon-instagram.png';
+import iconLinkedin from '../../assets/img/icon-linkedin.png';
 
-import iconWhatsapp from '../../assets/whatsapp-32.png';
-import iconEmail from '../../assets/icon-email.png';
+import iconWhatsapp from '../../assets/img/whatsapp-32.png';
+import iconEmail from '../../assets/img/icon-email.png';
 
 import {Button, Description, GroupIcon, Head, Headshot} from './style';
 
-export default function Header(props) {
+export function Header(props) {
     return (
         <Head className="header">
             <Headshot className="headshot" src={headshot} alt="Imagem Perfil" />

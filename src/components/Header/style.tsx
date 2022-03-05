@@ -11,9 +11,6 @@ export const Head = styled.div`
     margin: 0 auto;
 
     @media (max-width: 960px) {
-        //align-items: initial;
-        //justify-content: left;
-        //right: 300%;
         width: 90%;
     }
 `;
